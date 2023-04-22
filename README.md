@@ -1,2 +1,2 @@
 # JAVA
-Basics of Java code
+Basics of Java 
