@@ -1,12 +1,11 @@
-import java.io.FileInputStream;
-public class input {
-    public static void main(String args[]){
-        try{
-            FileInputStream fin=new FileInputStream("D:\\testout.txt");
-            int i=fin.read();
-            System.out.print((char)i);
-
-            fin.close();
-        }catch(Exception e){System.out.println(e);}
+import java.util.*;
+class input
+{
+    public static void main(String[] args)
+    {
+        Scanner sc= new Scanner(System.in);    //System.in is a standard input stream
+        System.out.print("Enter Your Name - ");
+        String a= sc.next();
+        System.out.println(a);
     }
 }
